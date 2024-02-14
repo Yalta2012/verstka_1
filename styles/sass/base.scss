@@ -1,0 +1,69 @@
+/*сброс стилей*/
+$md: 768px;
+$sm: 576px;
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    font-style: none;
+}
+
+body,
+p,
+h1,
+h2,
+h3,
+ul {
+    margin: 0;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+    color: var(--dark);
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+/*основные стили*/
+
+h1 {
+    font-size: 48px;
+    line-height: 120%;
+    font-weight: 800;
+    margin-bottom: 28px;
+
+    @media screen and (max-width: $md) {
+        font-size: 36px;
+    }
+
+    @media screen and (max-width: $sm) {
+        font-size: 28px;
+    }
+
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 40px;
+}
+
+:root {
+    --box-shadow: 0px 0px 35px 2px #0C28361F;
+    --dark: #0C2836;
+
+}

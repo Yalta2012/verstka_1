@@ -1,0 +1,88 @@
+@charset "UTF-8";
+/*фитбек*/
+.feedback {
+  margin-bottom: 100px;
+}
+.feedback .feedback__text {
+  text-align: right;
+  margin-right: 27px;
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+}
+@media screen and (max-width: 1200px) {
+  .feedback .feedback__text {
+    text-align: center;
+    margin-bottom: 48px;
+  }
+}
+.feedback .feedback__text h2 {
+  margin-bottom: 0px;
+}
+.feedback .feedback__text p {
+  font-size: 24px;
+  font-weight: 400;
+  margin-right: 8px;
+}
+@media screen and (max-width: 1199px) {
+  .feedback .feedback__text p {
+    text-align: center;
+    margin: 0;
+  }
+}
+.feedback .feetback__form {
+  padding: 24px;
+  background: #FFF;
+  box-shadow: var(--box-shadow);
+  border-radius: 10px;
+}
+.feedback .feetback__form .feetback__form-group {
+  margin: 16px 0px 16px 0px;
+  display: flex;
+  gap: 15px;
+}
+@media screen and (max-width: 767px) {
+  .feedback .feetback__form .feetback__form-group {
+    display: block;
+  }
+  .feedback .feetback__form .feetback__form-group input {
+    margin-bottom: 10px;
+  }
+}
+.feedback .feetback__form textarea,
+.feedback .feetback__form input {
+  display: block;
+  padding: 8px 12px;
+  border: 1px solid #D9E2EB;
+  border-radius: 10px;
+  overflow: hidden;
+  outline: none;
+  min-height: 40px;
+  width: 100%;
+}
+.feedback .feetback__form textarea::placeholder,
+.feedback .feetback__form input::placeholder {
+  color: #8a99a8;
+}
+@media screen and (max-width: 424px) {
+  .feedback .feetback__form textarea,
+  .feedback .feetback__form input {
+    margin-bottom: 16px;
+  }
+}
+.feedback .feetback__form .button-prime {
+  padding: 9px 60px 9px 60px;
+  background: linear-gradient(90deg, #FB8501 -0.07%, #FFB703 100%);
+  border-radius: 10px;
+  border: none;
+  transition: box-shadow 300ms, transform 100ms;
+}
+.feedback .feetback__form .button-prime:focus {
+  transform: scale(0.95);
+}
+.feedback .feetback__form .button-prime:hover {
+  box-shadow: 0 0 10px 0 #FFb003;
+}
+
+/*фитбек конец*//*# sourceMappingURL=feedback.css.map */

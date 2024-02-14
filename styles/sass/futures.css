@@ -1,0 +1,33 @@
+@charset "UTF-8";
+/*фичи*/
+.features {
+  align-items: middle;
+}
+.features .futures__text {
+  text-align: right;
+  font-size: 32px;
+  font-weight: 400;
+  display: flex;
+  flex-direction: column;
+  padding: 21px 0px 3px 0px;
+}
+.features .futures__text p:first-child {
+  color: #FC8602;
+}
+.features .futures__card {
+  padding: 40px;
+  border-radius: 40px;
+  box-shadow: var(--box-shadow);
+  height: 100%;
+}
+.features .futures__card img {
+  margin-bottom: 25px;
+}
+.features .futures__card p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #0C2836;
+  line-height: 38px;
+}
+
+/*фичи конец*//*# sourceMappingURL=futures.css.map */

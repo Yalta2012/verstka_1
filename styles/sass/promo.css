@@ -1,0 +1,54 @@
+@charset "UTF-8";
+/*главный блок*/
+.promo {
+  margin-bottom: 100px;
+}
+@media screen and (max-width: 991px) {
+  .promo {
+    margin-bottom: 0px;
+  }
+}
+.promo p {
+  margin-bottom: 262px;
+}
+@media screen and (max-width: 991px) {
+  .promo p {
+    margin-bottom: 285px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .promo p {
+    margin-bottom: 28px;
+  }
+}
+.promo h1 {
+  line-height: 120%;
+  font-weight: 800;
+  margin-bottom: 28px;
+}
+.promo h1 span {
+  color: #FFA239;
+}
+.promo .promo-bg {
+  background: url("../../img/promo.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+@media screen and (max-width: 991px) {
+  .promo .promo-bg {
+    height: 670px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .promo .promo-bg {
+    background: none;
+    height: auto;
+  }
+}
+.promo .promo__list li {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  margin-bottom: 8px;
+}/*# sourceMappingURL=promo.css.map */

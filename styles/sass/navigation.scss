@@ -1,0 +1,53 @@
+/*навигация*/
+.navigation {
+    padding-top: 38px;
+    margin-bottom: 72px;
+
+
+    .navigation__wrap {
+        display: flex;
+        justify-content: space-between;
+
+        .navigation__list {
+
+            display: flex;
+            align-items: center;
+            text-align: center;
+            grid-gap: 39px;
+
+            .navigation__list-item-link {
+                font-weight: medium;
+                color: var(--dark);
+                text-decoration: none;
+
+                @media screen and (max-width:437px) {
+                    display: none;
+
+                }
+
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+
+            .navigation__list-item-button {
+                //display: none;
+                height: 52px;
+                width: 52px;
+                padding: 7px;
+
+
+                transition: transform 100ms;
+
+                &:active {
+                    transform: scale(0.95);
+                }
+
+                @media screen and (min-width:437px) {
+                    display: none;
+                }
+
+            }
+        }
+    }
+}

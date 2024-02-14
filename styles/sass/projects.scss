@@ -1,0 +1,32 @@
+/*проекты*/
+.projects{
+    margin-bottom: 100px;  
+    .row{
+        row-gap: 52px;
+    }
+    .projects__card{
+        
+        img{
+            margin-bottom: 12px;
+            width: 100%;
+        }
+        a{
+            color: #FFA239;
+            font-size: 18px;
+            font-weight: 600;
+            text-decoration: none;
+            margin-top: 12px;
+            &:hover{
+                text-decoration: underline;
+            
+            }
+        }
+        
+        p{
+            font-size: 16px;
+            font-weight: 400;
+        }
+
+    }
+}
+/*проекты конец*/

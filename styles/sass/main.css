@@ -1,0 +1,29 @@
+@charset "UTF-8";
+/*главный блок*/
+.promo {
+  margin-bottom: 100px;
+}
+.promo p {
+  margin-bottom: 250px;
+}
+.promo h1 {
+  font-size: 48px;
+  line-height: 120%;
+  font-weight: 800;
+  margin-bottom: 28px;
+}
+.promo h1 span {
+  color: #FFA239;
+}
+.promo .promo-bg {
+  background: url("../../img/promo.svg");
+  background-repeat: no-repeat;
+  height: 628px;
+  background-size: contain;
+}
+.promo .promo__list li {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  margin-bottom: 8px;
+}/*# sourceMappingURL=main.css.map */
