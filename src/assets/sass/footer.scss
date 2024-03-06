@@ -1,0 +1,61 @@
+/*футер*/
+footer {
+    margin-bottom: 7px;
+
+    .row {
+        row-gap: 24px;
+    }
+
+    .footer__group {
+        margin-bottom: 74px;
+
+        .footer__logo {
+            align-items: left;
+            vertical-align: middle;
+            
+            @media screen and (max-width:991px) {
+                margin: 0px auto;
+                display: block;
+            }
+        }
+
+        .footer__navigation-list {
+            text-align: center;
+            vertical-align: middle;
+
+            @media screen and (max-width:991px) {
+                &{text-align: center;}
+            }
+
+
+            .footer__navigation-list-link {
+                font-size: 24px;
+                font-weight: 400;
+                color: var(--dark);
+                text-decoration: none;
+
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+
+        .footer__address {
+            text-align: right;
+            padding: 8px;
+
+            @media screen and (max-width: 991px) {
+                text-align: center;
+            }
+        }
+    }
+
+    .footer__cop {
+        text-align: center;
+        font-size: 14px;
+        font-weight: 400;
+        color: var(--dark);
+    }
+}
+
+/*футер конец*/

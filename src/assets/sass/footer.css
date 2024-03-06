@@ -1,0 +1,56 @@
+@charset "UTF-8";
+/*футер*/
+footer {
+  margin-bottom: 7px;
+}
+footer .row {
+  row-gap: 24px;
+}
+footer .footer__group {
+  margin-bottom: 74px;
+}
+footer .footer__group .footer__logo {
+  align-items: left;
+  vertical-align: middle;
+}
+@media screen and (max-width: 991px) {
+  footer .footer__group .footer__logo {
+    margin: 0px auto;
+    display: block;
+  }
+}
+footer .footer__group .footer__navigation-list {
+  text-align: center;
+  vertical-align: middle;
+}
+@media screen and (max-width: 991px) {
+  footer .footer__group .footer__navigation-list {
+    text-align: center;
+  }
+}
+footer .footer__group .footer__navigation-list .footer__navigation-list-link {
+  font-size: 24px;
+  font-weight: 400;
+  color: var(--dark);
+  text-decoration: none;
+}
+footer .footer__group .footer__navigation-list .footer__navigation-list-link:hover {
+  text-decoration: underline;
+}
+footer .footer__group .footer__address {
+  text-align: right;
+  padding: 8px;
+}
+@media screen and (max-width: 991px) {
+  footer .footer__group .footer__address {
+    text-align: center;
+  }
+}
+footer .footer__cop {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--dark);
+}
+
+/*футер конец*//*# sourceMappingURL=footer.css.map */

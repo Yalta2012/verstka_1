@@ -1,0 +1,51 @@
+/*главный блок*/
+.promo{
+    margin-bottom: 100px;
+    @media screen and (max-width:991px) {
+        margin-bottom: 0px;
+    }
+
+    p {
+        margin-bottom: 262px;
+        @media screen and (max-width:991px) {
+            margin-bottom: 285px;
+        }
+        @media screen and (max-width:768px) {
+            margin-bottom: 28px;
+        }
+   
+    }
+
+    h1 {
+        line-height: 120%;
+        font-weight: 800;
+        margin-bottom: 28px;
+        span {
+            color: #FFA239;
+        }
+        
+    }
+    
+    
+    .promo-bg {
+        background: url("../../../public/promo.svg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        @media screen and (max-width:991px) {
+            height: 670px;
+        }
+        @media screen and (max-width:768px) {
+            background: none;
+            height: auto;
+        }   
+    }
+    
+    .promo__list li {
+        display: flex;
+        align-items: baseline;
+        gap: 12px;
+        margin-bottom: 8px;
+
+    }
+}
